@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Main-Class: server.CBServer
+Class-Path: bcprov-jdk16-1.46.jar netty-all-4.1.52.Final.jar commons-poo
+ l2-2.5.0.jar c3p0-0.9.1.2.jar slf4j-simple-1.7.25.jar mysql-connector-j
+ ava-8.0.15.jar fastjson-1.2.47.jar jedis-2.9.0.jar protobuf-java-3.13.0
+ .jar protobuf-java-format-1.4.jar log4j-1.2.17.jar slf4j-api-1.7.25.jar
+  commons-dbutils-1.5.jar
+

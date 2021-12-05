@@ -1,0 +1,17 @@
+syntax ="proto3";
+
+enum Type{
+    REQUEST_ELECTRIC = 0;
+}
+
+message Request{
+    Type type = 1;
+    int32 id = 2;
+    oneof data_body{
+        RequestElectric requestElectric = 3;
+    }
+}
+
+message RequestElectric{
+    float value = 1;
+}
